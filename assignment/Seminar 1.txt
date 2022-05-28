@@ -1,0 +1,62 @@
+THUYẾT TRÌNH NHÓM
+* Lịch thuyết trình: thứ 4 của tuần thứ 5
+
+Chọn 1 app bất kì, hay app của môn SWP, sau đó brain-storming viết ra những luận điểm sau:
+
+1. Background: 
+   AS IS SYSTEM/LEGACY SYSTEM
+   bối cảnh, hiện trạng, thế giới ra sao trước khi app của mình xuất hiện
+   kể lại câu chuyện thế giới trước khi app mình xh
+   có thể nêu các vấn đề trong câu chuyện này
+
+   Ví dụ: việc gọi xe ôm truyền thống ra sao, có vấn đề gì tồn tại
+          - người đi: đi tìm bác tài; trả giá...
+                      chiều về thì sao???
+                      
+
+          - bác tài: thụ động chờ khách gọi ở bãi xe
+                     giang sơn nào anh hùng nấy
+                     chiều chạy về xe rỗng
+⁯
+          việc kiếm/mua đồ ăn thời chưa có app ra sao???
+          
+   Chốt deal: kể chuyện & problems (dùng servey/questionaire/bảng điều tra
+              để có số liệu minh chứng)
+             
+              TỪ ĐÓ GỢI Ý RA CƠ HỘI LÀM APP
+ 
+
+2. Đối thủ/app đang có trên thị trường (existing systems) {ko ép làm}
+   - Có app nào trên thị trường đã giải quyết 1 phần vấn đề rồi,
+     nhưng vẫn còn cơ hội cho app chúng ta!!!   
+
+3. Opportunity - cơ hội làm app của chúng ta
+   Nói vài câu ngắn về app chúng ta sẽ làm để fix các problem ở trên!!!
+
+   Một vài câu ngắn intro về cái app sẽ làm để người đọc, nhà đầu tư
+   hiểu đc ý tưởng, cách giải quyết của app để fix các problem
+
+
+   cơ hội: ta nhận ra 1 thị trường ngách - niche market
+
+4. Business Objectives - mục tiêu cần đạt của dự án/của app khi nó xh
+   - những con số bạn kì vọng đạt được khi app đưa vào vận hành
+     mang ý nghĩa fix cho các problem của thị trường
+   - mục tiêu/benefits cần đạt được khi làm app
+
+   Ví dụ: Grab sinh ra để giải quyết
+   - công ăn việc làm cho các bác tài, anh em muốn cải thiện cuộc sống
+     bằng cách kiếm tiền tự do ngoài giờ...
+   - giúp người gọi xe ko đau đầu tìm tài xế...
+   - ...
+   
+   Ví dụ: VECA
+   - đạt bao nhiêu người mua ve chai/tháng đầu, tháng sau đó
+   - tỉ lệ lợi nhuận/người mua/người bán/vựa ve chai là bao nhiêu đồng???
+     % tổng tiền giao dịch!!!
+  
+   Thương vụ bạc tỉ VTV3
+
+  
+
+
