@@ -1,0 +1,376 @@
+=======================================================================
+   GIẢI NGỐ ĐỀ THI PE - PRACTICAL EXAM MÔN: YÊU CẦU PHẦN MỀM - SWR302
+=======================================================================
+I. ĐỀ THI KIỂM TRA CÁC KỸ NĂNG XOAY QUANH REQUIREMENTS ENGINEERING
+- NHẬN DIỆN REQUIREMENTS: 
+  - USER REQS
+  - SYSTEM REQS (FUNCTIONAL REQS, NON-FUNCTIONAL REQS)
+  - BUSINESS RULES
+  - ...
+- SCOPE BÀI TOÁN: CÁI NÀO LÀM, CÁI NÀO KO LÀM
+- NHẬN DIỆN THỰC THỂ DỮ LIỆU
+- MÔ TẢ CHI TIẾT TÍNH NĂNG, LUỒNG XỬ LÝ CỦA APP PHẢN ÁNH NGHIỆP VỤ KHÁCH HÀNG / USER 
+  ĐANG LÀM NGOÀI ĐỜI, NAY LÀM TRONG APP MÌNH VIẾT
+- ...
+
+- MÔ HÌNH HOÁ (VẼ HÌNH, VẼ SƠ ĐỒ) ĐỂ TRỰC QUAN HOÁ CÁC GÓC NHÌN VỀ APP
+- HỆ THỐNG HOÁ CÁC REQUIREMENTS - DOCUMENTATION - VIẾT DOCUMENT CHUẨN CHỈNH (.DOCX, .PDF)
+
+>>>>> ĐỂ LÀM ĐƯỢC NHỮNG ĐIỀU TRÊN, TA CẦN 1 BÀI TOÁN, 1 TÌNH HUỐNG, 1 APP SẼ CẦN PHẢI ĐC LÀM
+      GỌI LÀ CASE STUDY, 1 TÌNH HUỐNG MÔ PHỎNG ĐỜI THỰC, BIẾN CÂU CHUYỆN THÀNH APP
+      CTY ABC ĐANG LÀM VIỆC THẾ NÀY...
+      NAY MUỐN CÓ CÁI APP ĐỂ THAY THẾ NHỮNG CÔNG VIỆC TAY CHÂN, GIẤY TỜ (HARD-COPY), KO
+                                       HIỆU QUẢ, HAY GÂY SAI SÓT...
+============================================================================
+II. NHỮNG CÂU HỎI CỦA ĐỀ THI - BIẾN ĐỔI THEO TỪNG KỲ, GIA GIẢM THEO TỪNG KỲ
+
+0. CONTEXT - BỐI CẢNH, CÂU CHUYỆN LÀM APP CHO CTY ABC... 
+   VÀ 
+   * CÂU HỎI: CÓ 4+ CÂU HỎI BẠN CẦN TRẢ LỜI
+
+1. CÂU HỎI 1:
+- HOÀN TẤT TRANG BÌA CUỐN DOCUMENT CHUẨN CHỈNH VỀ REQUIREMENTS, CUỐN NÀY NGOÀI ĐỜI GỌI LÀ
+  SRS/FRS (SOFTWARE REQUIREMENTS SPECIFICATION - BẢN ĐẶC TẢ YÊU CẦU PHẦN MỀM)
+          (FUNCTIONAL REQUIREMENTS SPECIFICATION - BẢN ĐẶC TẢ YÊU CẦU CHỨC NĂNG PHẦN MỀM)
+          (dày vài trăm trang) - WATERFALL
+          (backlog)            - AGILE/SCRUM
+          (.md)                - AI AGENT (HARNESS ENGINEERING)
+          (REPORT3 - SRS)      - KHOÁ LUẬN TỐT NGHIỆP - CAPSTONE PROJECT
+   
+2. CÂU HỎI 2:
+- VẼ SƠ ĐỒ CONTEXT, CONTEXT DIAGRAM CHO BÀI TOÁN ĐÃ NÊU
+
+3. CÂU HỎI 3:
+- VẼ SƠ ĐỒ USE CASE, USE CASE DIAGRAM CHO BÀI TOÁN ĐÃ NÊU
+
+4. CÂU HỎI 4:
+- VẼ SƠ ĐỒ ERD, ENTITY RELATIONSHIP DIAGRAM 
+
+5. CÂU HỎI 4+:
+- VIẾT USE CASE SPECIFICATION / USE CASE DESCRIPTION
+- VIẾT RA VÀI NON-FUNCTIONAL REQS CÓ METRIC - ĐỘ ĐO
+- VIẾT RA VÀI CÁI BUSINESS RULES
+- VẼ RA SƠ ĐỒ STATE CHART / STATE MACHINE DIAGRAM (SƠ ĐỒ TRẠNG THÁI)
+- HIẾM HOI: SƠ ĐỒ ACTIVITY DIAGRAM, ORG CHART (ORGANIZATIONAL CHART)
+
+
+============================================================================
+III. TEMPLATE LÀM BÀI THI, TOOL LÀM BÀI THI
+1. TEMPLATE LÀM BÀI THI
+- ĐỀ THI SẼ GỬI BẠN 1 FILE TEMPLATE .DOCX - SRS RÚT CỰC GỌN
+- BẠN ĐIỀN VÀO NHỮNG CHỖ CÓ MÀU XANH (GỢI Ý CÁCH ĐIỀN, NƠI ĐIỀN CÂU TRẢ LỜI)
+- CẤM TUYỆT ĐỐI SỬA LAYOUT, SỬA TEMPLATE THEO BẤT KÌ HÌNH THỨC NÀO, CHỈ ĐIỀN VÀO HOY
+- CẤM TUYỆT ĐỐI DÙNG TEMPLATE KHÁC MÙA THI ĐANG THI, DÙNG ĐÚNG TEMPLATE ĐỀ THI ĐANG THI
+- XOÁ DÒNG CHỮ GHI CHÚ MÀU XANH!!!!!!!!!!!!!!!!!!!
+- CHỈNH MÀU CHỮ MÌNH ĐIỀN THÀNH MÀU ĐEN, MÀU NÀO KHÁC ĐỂ BIẾT ĐÂY LÀ NỘI DUNG CỦA BẠN - DÂN BA
+- .DOCX MỞ BẰNG WORD, KING OFFICE, LIBRE' OFFICE OKIE!
+
+* KO DÙNG TEMPLATE LẠ - DÙNG ĐÚNG TEMPLATE CỦA ĐÚNG NGÀY THI, ĐÚNG MÙA THI!!!!!!!!!!!!
+
+2. TOOL
+- BẠN CẦN VẼ HÌNH CHÈN VÀO TEMPLATE, BẠN CHỈ ĐƯỢC DÙNG
+  - VISUAL PARADIGM, CÀI PHIÊN BẢN COMMUNITY EDITION (CE) FREE 30 NGÀY
+  - DÙNG CHÍNH WORD ĐỂ VẼ 
+- YÊU CẦU ĐÚNG CÚ PHÁP; SAI CÚ PHÁP VẼ KO TÍNH ĐIỂM
+- KO DÙNG TOOL LẠ NGOÀI DANH SÁCH ĐỀ XUẤT!!!
+
+============================================================================
+I. CÂU HỎI 1: TRANG BÌA CUỐN SRS
+- NHỚ ĐIỀN ĐÚNG THÔNG TIN YÊU CẦU: 
+  - TÊN APP
+  - TÊN TÁC GIẢ CUỐN NÀY - TÊN GÃ BA - TÊN BẠN SV ĐANG LÀM BÀI THI
+  - NGÀY THÁNG TẠO CUỐN NÀY - NGÀY THI
+  - CTY P/M TẠO RA CUỐN NÀY - TÊN TRƯỜNG MÌNH + CAMPUS HCM
+- NHỚ XOÁ DÒNG CHỮ MÀU XANH, CỘT ĐIỂM 
+- TÔ MÀU HOẶC MÀU ĐEN NỘI DUNG MÌNH ĐIỀN, KO ĐỂ MÀU XANH CỦA TEMPLATE
+
+II. CÂU HỎI 2: CONTEXT DIAGRAM - SƠ ĐỒ NGỮ CẢNH
+1. SƠ ĐỒ NGỮ CẢNH LÀ GÌ?
+- LÀ 1 SƠ ĐỒ DÙNG ĐỊNH NGHĨA SCOPE BÀI TOÁN, SCOPE PHẦN MỀM SẼ LÀM, TỨC LÀ XÁC ĐỊNH BIÊN GIỚI APP MÌNH Ở ĐÂU, VÀ BÊN NGOÀI APP MÌNH LÀ GÌ?
+
+- LÀ 1 SƠ ĐỒ NHÌN NHANH VỀ APP MÌNH TƯƠNG TÁC VỚI THẾ GIỚI BÊN NGOÀI APP MÌNH QUA VIỆC GỬI, NHẬN DATA (APP MÌNH GỬI DATA GÌ RA NGOÀI
+                         APP MÌNH NHẬN DATA GÌ TỪ BÊN NGOÀI) VỚI CÁC THỰC THỂ NGOÀI APP
+ 
+         [NHỮNG THỨ NGOÀI APP] ------------->   (APP MÌNH)
+                                   DATA          
+                               <-------------
+2. CÁC THÀNH PHẦN TẠO NÊN SƠ ĐỒ NGỮ CẢNH
+2.1 SYSTEM -> APP MÌNH ĐANG VIẾT
+* KÝ HIỆU: HÌNH TRÒN, HÌNH ELIPSE
+* TÊN APP NẰM TRONG HÌNH TRÒN, HÌNH ELIPSE
+
+2.2 EXTERNAL ENTITY -> THẾ GIỚI NGOÀI APP
+* KÝ HIỆU: HÌNH CHỮ NHẬT, BÊN TRONG HCN LÀ "DANH TỪ" ĐẠI DIỆN CHO:
+
+  -> CÁC USER XÀI APP TRONG TƯƠNG LAI - VIẾT THEO ROLE, KO VIẾT TÊN CON NGƯỜI CỤ THỂ XÀI APP ĐÓ
+    VÍ DỤ: PHẦN MỀM TÍNH TIỀN TẠI QUẦY QUÁN TRÀ SỮA, CỬA HÀNG TIỆN LỢI, SIÊU THỊ...
+           CÓ BẠN: LAN, HỒNG, HUỆ, MƠ, MẬN, ĐÀO => TÍNH TIỀN KHÁCH MUA HÀNG
+                   ---------------------------- -> USER GỌI CHUNG LÀ THU-NGÂN - CASHIER
+    EXTERNAL ENTITY: [CASHIER]
+
+  -> APP KHÁC, HỆ THỐNG KHÁC, HAY THIẾT BỊ BÊN NGOÀI APP MÌNH, MÀ CÓ GIAO TIẾP VỚI APP MÌNH
+     THEO KIỂU APP MÌNH GỬI INFO CHO BÊN NGOÀI, APP KHÁC
+               APP MÌNH NHẬN INFO TỪ APP KHÁC BÊN NGOÀI
+
+     (LAZADA, SHOPEE)  ------ORDER: PAYMENT INFO ----------> [MOMO, PAYMENT GATEWAY]
+                       <----- PAYMENT STATUS ---------------
+
+     (APP MÌNH)       --------------- PROMPTS --------------> [AI SYSTEM]
+                      <-------------- RESULT ----------------
+
+    * HỆ THỐNG KHÁC: CỔNG THANH TOÁN, CỔNG GIAO HÀNG, XÁC THỰC, LƯU TRỮ, IOT DEVICE, AI SYSTEM
+                     APP KHÁC ĐANG CÓ Ở CTY, Ở PHÂN XƯỞNG,...
+
+2.3 DATA FLOW ----------------> MŨI TÊN ĐÓ EM
+* KÝ HIỆU: LÀ MŨI TÊN ĐƠN, CHỈ LUỒNG DATA VÀO APP MÌNH TỪ EXTERNAL ENTITY
+           LÀ MŨI TÊN ĐƠN, CHỈ LUỒNG DATA RA KHỎI APP MÌNH ĐẾN EXTERNAL ENTITY
+* DÙNG DANH TỪ, CHỈ MẢNH, MIẾNG THÔNG TIN CẦN LƯU TRỮ, CẦN XỬ LÝ, THÔNG TIN ĐẦU VÀO, THÔNG TIN ĐẦU RA
+-> THỰC HÀNH: THÔNG TIN VÀO RA APP CỰC NHIỀU, NẾU NHÌN CHI TIẾT
+              VÍ DỤ: [USER] ----- login: username, password, role...----------------------------> (APP MÌNH)
+                                  đơn hàng: user-id, address-nhận-hàng, ngày giờ, danh sách mua...
+   TA NÊN GOM NHỮNG MIẾNG INFO LẺ THÀNH 1 TÊN GỌI LỚN, TÊN GỌI CHUNG, GỌI THEO OBJECT
+                                  --------- ACCOUNT INFO ------------>
+                                  ---------  ORDER   ---------------->
+
+* Ý NGHĨA: GIÚP NHẬN DIỆN OBJECT, CLASS, TABLE
+========================================> CẢ SƠ ĐỒ
+- SCOPE
+- USER ROLE, USER TYPE, USER CLASS
+- CLASS, TABLE
+
+
+III. CÂU HỎI 3 - VẼ SƠ ĐỒ USE CASE, USE CASE DIAGRAM
+1. ĐỊNH NGHĨA
+- LÀ SƠ ĐỒ LIỆT KÊ DANH SÁCH CÁC TÍNH NĂNG CỦA APP, 
+                   DANH SÁCH CÁC "USER" CỦA APP - USER LÀ NHỮNG "AI" SẼ TƯƠNG TÁC VỚI APP
+                   VÀ CHỈ RA "AI" XÀI TÍNH NĂNG NÀO
+
+2. THÀNH PHẦN TẠO NÊN SƠ ĐỒ USE CASE
+2.1 SYSTEM BOUNDARY - BIÊN GIỚI APP, ĐẠI DIỆN CÁI APP SẼ LÀM
+
+* KÍ HIỆU: HÌNH CHỮ NHẬT, TRONG HÌNH CHỮ NHẬT LÀ TÊN APP Ở TRÊN CÙNG
+* QUY TẮC: MỌI TÍNH NĂNG CỦA APP (HÌNH ELIPSE, OVAL) PHẢI NẰM TRỌN VẸN TRONG HCN
+           MỌI USER (ACTOR) PHẢI NẰM NGOÀI APP
+
+2.2 ACTOR - USER, NGƯỜI DÙNG, HỆ THỐNG KHÁC CÓ TƯƠNG TÁC VỚI APP
+
+* KÍ HIỆU: HÌNH NGƯỜI QUE, NGƯỜI TUYẾT
+
+* QUY TẮC: NẰM NGOÀI HCN BOUNDARY
+
+* LÀ GÌ?  (Y CHANG NHƯ BÊN EXTERNAL ENTITY CỦA SƠ ĐỒ CONTEXT DIAGRAM)
+-> LÀ CON NGƯỜI, NGƯỜI DÙNG SẼ XÀI APP TRONG TƯƠNG LAI. 
+  - GHI TÊN USER THEO ROLE, KO GHI TÊN NGƯỜI CỤ THỂ
+  - VÍ DỤ: LAN HỒNG HUỆ MƠ MẬN ĐÀO -> THU TIỀN TẠI QUẦY -> THU NGÂN - CASHIER -> ACTOR
+           AN BÌNH CƯỜNG DŨNG -> LÀ SINH VIÊN XÀI APP FAP -> STUDENT ACTOR
+
+  > CÓ THỂ CÓ THÊM ACTOR GUEST, GÃ KO DANH TÍNH, CHƯA THÈM LOGIN MÀ CÓ THỂ TRẢI NGHIỆM
+    TÍNH NĂNG APP: APP BÁN HÀNG, CÁC WEBSITE BÁN ĐỒ...
+
+-> APP KHÁC BÊN NGOÀI CÓ GIAO TIẾP VỚI APP CHÚNG TA: MOMO, VNPAY -> PAYMENT GATEWAY ACTOR
+                                                    GHN, GHTK -> DELIVERY SYSTEM ACTOR
+
+-> NẾU APP CÓ TÍNH NĂNG TỰ CHẠY MÀ KO CÓ NGƯỜI CAN THIỆP, KO CÓ NGƯỜI NHẤN NÚT GÌ CẢ
+   CHẠY ĐỀU ĐẶN THEO 1 TẦN SUẤT NÀO ĐÓ ĐC SETTING SẴN BỞI NGƯỜI TRƯỚC ĐÓ
+   - SETTING TRƯỚC, SAU ĐÓ TỰ CHẠY THEO MÀ KO CẦN CAN THIỆP 
+   
+   VÍ DỤ:
+   8H MỖI NGÀY QUÉT NGÀY SINH NHẬT CỦA KHÁCH HÀNG CÓ NGÀY SINH TRONG NGÀY GỬI THIỆP CHÚC MỪNG
+
+   BÁN HÀNG CỨ ĐẾN NGƯỠNG TỒN KHO TỐI THIỂU <= 100 SẢN PHẨM TỒN KHO 
+                          -> ALERT, KÍCH HOẠT TỰ ĐỘNG QUY TRÌNH NHẬP HÀNG TỪ NCC
+
+   FAP CỨ 3H SÁNG QUÉT THÔNG TIN ĐIỂM DANH, GỬI EMAIL NOTI... TỚI SINH VIÊN
+
+   * CỨ LÀM MÃI CHO ĐẾN KHI THAY ĐỔI SETTING, THAY ĐỔI NGƯỠNG
+
+   ĐOẠN CODE NÀY ĐÓNG VAI ACTOR ĐỂ TỰ ĐỘNG HOÁ 1 CÔNG VIỆC NÀO ĐÓ, 1 TÍNH NĂNG NÀO ĐÓ
+   GIỐNG NHƯ NÓ LÀ ACTOR NGƯỜI (MÁY) KÍCH HOẠT TÍNH NĂNG APP CHẠY
+
+   >>>>> ACTOR NÀY ĐC GỌI LÀ: SYSTEM HANDLER
+   >>>>> KEYWORD ĐỂ LÀM CODE CHẠY TỰ ĐỘNG TRÊN SERVER: BACKGROUND JOB, WORKER, CRON JOB
+
+   >>>>> TIẾNG VIỆT MÌNH HAY CÓ CÂU "TỰ ĐỘNG" VÀ GÂY NHẦM LẪN VỚI SYSTEM HANDLER
+   "Khi người dùng đăng kí account thành công, hệ thống tự động gửi email activate, chúc mừng"
+                                                          ***          
+   "Khi tạo đơn hàng thành công, hệ thống tự động gửi noti"
+                                            ***            
+    bản chất chữ tự động gửi mail là ko tự động, chỉ là hệ quả của hành động đăng kí
+    bạn đăng kí account bạn mới có email confirm -> đây là nhân quả, ko là tự động
+
+    tự động style ngáo: ko đăng kí mà có mail -> tự động kì quặc
+          
+2.3 USE CASE - TÍNH NĂNG PHẦN MỀM, CHỨC NĂNG PHẦN MỀM, ~ MÀN HÌNH
+* KÍ HIỆU: HÌNH ELIPSE, OVAL, VERB + OBJECT, ĐỘNG TỪ KÈM BỔ NGỮ
+* QUY TẮC: NẰM TRỌN VẸN TRONG HÌNH CHỮ NHẬT, HÀM Ý APP GỒM NHỮNG TÍNH NĂNG ĐC LIỆT KÊ TRONG CÁC HÌNH ELIPSE. 
+* Ý NGHĨA: LÀ 1 TÍNH NĂNG MÀ USER NÀO ĐÓ SẼ XÀI VÀ PHẢI NHẬN VỀ 1 KẾT QUẢ, 1 GIÁ TRỊ CÓ Ý NGHĨA HỖ TRỢ CÔNG VIỆC HỌ ĐANG LÀM MÀ KHI CHƯA CÓ APP HỌ VẪN PHẢI LÀM, NAY LÀM QUA APP
+           LÀ 1 TÍNH NĂNG, VÀ APP PHẢI XỬ LÍ TÍNH TOÁN GÌ ĐÓ ĐỂ CHO RA KẾT QUẢ CÓ Ý NGHĨA!!!
+
+           >>>>> COI CHỪNG NHẦM LẪN VỚI STEP TO FINISH CÁI USE CASE NÀY
+
+2.4 LINK ASSOCIATION AI/USER/SYSTEM NÀO XÀI TÍNH NĂNG GÌ
+* KÍ HIỆU: ĐƯỜNG THẲNG NÉT LIỀN NỐI GIỮA ACTOR VÀ USE CASE
+* QUY TẮC: AI XÀI TÍNH NĂNG NÀO THÌ NỐI ACTOR ĐÓ VỚI USE CASE TƯƠNG ỨNG
+           1 USER CÓ QUYỀN XÀI, NỐI TỚI NHIỀU TÍNH NĂNG USE CASE
+           1 USE CASE - TÍNH NĂNG CÓ QUYỀN ĐC XÀI BỞI NHIỀU USER/ACTOR
+
+>>>>> CẤM TUYỆT ĐỐI DÙNG ASSOCIATION ĐỂ NỐI GIỮA    ACTOR   ________ ACTOR        -> ĂN ĐÒN
+                                                 (USE CASE) ________ (USE CASE)   -> ĂN ĐÒN
+============================================================
+3. VẼ NÂNG CAO (USE CASE DIAGRAM IN ADVANCED)
+
+* INCLUDE VÀ EXTEND CHỈ DÙNG ĐỂ NỐI 2 USE CASE VỚI NHAU
+
+3.1 INCLUDE 
+* KÍ HIỆU:
+  ACTOR ---------(CHÂN TRỤ / ĐỨNG TẤN)  ---------<<INCLUDE>> ------------> (CHÂN ĐÁ)
+                        *****                         ĐÁ RA, HƯỚNG RA, CHỈ TỚI
+
+  ACTOR ---------(BASE USE CASE) ------------<<INCLUDE>> ------------> (INCLUDED UC)
+
+* QUY TẮC
+- LUÔN NỐI ACTOR VỚI BASE
+- INCLUDE ĐỌC TỪ GỐC MŨI TÊN
+- BASE MUỐN XONG, MUỐN THÀNH CÔNG, BẮT BUỘC CẦN CÁI THẰNG INCLUDED CX PHẢI THÀNH CÔNG!!!
+  PHỤ THUỘC CHẶT CHẼ, TỒN TẠI SỐNG CÒN
+
+* ỨNG DỤNG:
+- NẾU CÓ NHỮNG XỬ LÍ MÀ XẢY RA Ở NHIỀU USE CASE, TÁCH PHẦN XỬ LÍ NÀY RA THÀNH 1 THỨ BỊ INCLUDED
+- HOẶC TÁCH MỘT VÀI XỬ LÍ CỦA USE CASE BỰ RA THÀNH INCLUDED CHO RÕ Ý NGHĨA BÊN TRONG CỦA USE CASE!
+
+  VÍ DỤ:  GUEST -------- (ĐĂNG KÍ ACCOUNT) -------<<INCLUDE>> -----------> (GỬI EMAIL CONFIRMED)
+
+3.2 EXTEND
+* KÍ HIỆU:
+  ACTOR ---------(CHÂN TRỤ / ĐỨNG TẤN)  <---------<<EXTEND>> ------------ (CHÂN ĐÁ)
+                        *****                         DỘI VỀ, PHẢN VỀ, PLUGIN
+
+  ACTOR ---------(BASE USE CASE) <------------<<EXTEND>> ------------ (EXTENDED/EXTENSION UC)
+
+* QUY TẮC
+- LUÔN NỐI ACTOR VỚI BASE
+- EXTEND ĐỌC TỪ NGỌN MŨI TÊN
+- BASE XONG, CÓ THỂ KO CẦN THẰNG EXTENDED
+  PHỤ THUỘC LỎNG LẺO, TỒN TẠI PLUGIN, CƠM THÊM!
+
+* ỨNG DỤNG:
+- DÙNG ĐỂ LIÊN KẾT TÍNH NĂNG CHO TIỆN, ĐANG ĐỨNG Ở TÍNH NĂNG NÀY (BASE), CÓ THỂ MÓC SANG TÍNH NĂNG 
+  KIA ĐỂ BỔ TRỢ THÊM TRẢI NGHIỆM CHO BASE!!!
+
+  CUSTOMER ------ (BOOK TOUR) <-----<<EXTEND>> ----------- (MUA GÓI BẢO HIỂM NÂNG CAO)
+                       |
+                       |
+                 <<INCLUDE>>
+                       |
+                       V
+          (ĐÍNH KÈM BẢO HIỂM CƠ BẢN)
+
+
+ 
+3.3 GENERALIZATION - KẾ THỪA - IS A KIND OF...
+* KÝ HIỆU
+  ACTOR ---------------------|>  ACTOR
+  (USE CASE) ----------------|>  (USE CASE)
+
+* QUY TẮC:
+
+  CON -----------------------|> CHA
+  CON THỪA HƯỞNG, CÓ TẤT CẢ NHỮNG THỨ MÀ CHA CÓ, VÀ CÒN HƠN THẾ NỮA, CÓ THÊM RIÊNG
+
+  DOG ---- IS A --------|> PET
+  CAT ---- IS A --------|> PET
+
+ ------------------------------------------------------------------------
+  ACTOR ADMIN ------------------|> ACTOR MODERATOR
+                                         LÀM ĐƯỢC: THÊM BÀI, XOÁ BÀI, BAN NICK, LOCK BÀI VIẾT
+        ADMIN LÀM Y CHANG MODERATOR
+              VÀ CÒN THÊM: BAN MODERATOR, LEVERAGE A NEW MODERATOR
+
+  CON: TO HƠN CHA Ở KHẢ NĂNG LÀM ĐC NHIỀU TÍNH NĂNG, NHIỀU VIỆC HƠN
+       KO BÀN VỀ VAI VẾ XÃ HỘI
+  
+ * ỨNG DỤNG: KHI CÁC ACTOR CHUNG NHAU NHIỀU TÍNH NĂNG => SUY NGHĨ VỀ KẾ THỪA GIỮA CÁC ACTOR 
+ ------------------------------------------------------------------------ 
+ (USE CASE) ----------------|>  (USE CASE)
+ 
+ - TA ĐỌC ĐƯỢC GIỮA CÁC USE CASE CÓ MỐI LIÊN QUAN THEO STYLE "LÀ 1 DẠNG CỦA" 
+                                                             "IS A KIND OF"
+   MÈO LÀ 1 THÚ CƯNG
+   DOG LÀ 1 THÚ CƯNG
+   THÊM, XOÁ, SỬA ĐƠN HÀNG LÀ 1 DẠNG CÔNG VIỆC QUẢN LÍ ĐƠN HÀNG - MANAGE PRODUCT
+   
+ - MANAGE X VỚI CÁC CRUD X CHÍNH LÀ HIỆN THÂN CỦA MỐI QUAN HỆ KẾ THỪA - GENERALIZATION
+
+ GOM CỤM TÍNH NĂNG, GOM MENU CHỨC NĂNG CỦA CÙNG 1 TOPIC, CÙNG 1 CHỦ ĐỀ, 1 NHÓM CÔNG VIỆC LIÊN QUAN
+ VÀ ĐỌC ĐC CÂU "IS A"
+
+
+>>>>>>>>>>>> LƯU Ý:
+- KO VẼ SƠ ĐỒ USE CASE THEO LUỒNG TỪ "UC NÀY" QUA "UC KIA" QUA TIẾP "UC KHÁC" QUA TIẾP "UC KHÁC"
+  ----->  --------->  --------->  ----------->
+  VÌ UCD LÀ SƠ ĐỒ LIỆT KÊ TÍNH NĂNG, KO PHẢI LUỒNG MÀN HÌNH
+
+- KO NÊN LẠM DỤNG INCLUDE VÀ EXTEND VÌ DỄ GÂY RỐI SƠ ĐỒ, CHỌN CÁI INCLUDE QUAN TRỌNG MUỐN LÀM RÕ
+                                                         CHỌN CÁI EXTEND QUAN TRỌNG ĐỂ VẼ
+  SAI HƯỚNG BASE ĂN ĐÒN!!!
+
+- ĐỘNG TỪ CHO USE CASE
+ 
+- KO NHẦM LẪN VỚI STEP, VÍ DỤ: INPUT USERNAME KO LÀ UC, VÌ NÓ CHƯA TRẢ RA KQ CÓ Ý NGHĨA
+  ĐẶT THÊM CÂU HỎI: ĐỂ LÀM GÌ -> MỤC ĐÍCH CUỐI CÙNG MỚI LÀ USE CASE
+
+* VẼ SƠ ĐỒ TỔNG QUÁT TRƯỚC, ACTOR, USE CASE, NỐI THUẦN ASSOCIATE, SAU ĐÓ MỚI TỐI ƯU, NÂNG CAO
+  QUA KẾ THỪA, INCLUDE, VÀ EXTEND!!!!!!!!!!!!!!!!!
+
+=================================================
+IV. CÂU HỎI 4: VẼ SƠ ĐỒ ERD, ENTITY RELATIONSHIP DIAGRAM 
+1. ERD LÀ GÌ?
+- LÀ SƠ ĐỒ THỂ HIỆN CẤU TRÚC DỮ LIỆU, ĐỐI TƯỢNG DỮ LIỆU, NHỮNG THỰC THỂ / ENTITY DỮ LIỆU
+  MÀ APP XỬ LÝ VÀ CẦN LƯU TRỮ LÂU DÀI TRÊN THIẾT BỊ LƯU TRỮ
+- NÓI VỀ ERD LÀ NÓI VỀ LƯU TRỮ DỮ LIỆU LÂU DÀI, LÀ NÓI VỀ CƠ SỞ DỮ LIỆU - DATABASE
+  LÀ NÓI VỀ CƠ SỞ DỮ LIỆU DỰA TRÊN HÌNH DẠNG TABLE (RELATION)
+- NÓI VỀ ERD LÀ NÓI VỀ RDBMS - RELATIONAL DATABASE MANAGEMENT SYSTEM (HỆ QUẢN TRỊ CSDL)
+  VÍ DỤ: MS SQL SERVER, ORACLE, DB2, MYSQL, POSTGRE, SQLITE... 
+- NÓI VỀ ERD CÒN NÓI VỀ THÔNG TIN RÀNG BUỘC, 
+  THÔNG TIN MÓC NỐI GIỮA ĐÁM DỮ LIỆU LƯU TRỮ NÀY VỚI NHAU - GỌI LÀ RELATIONSHIP
+
+* ERD: 2 THỨ LỚN -> ENTITY (TABLE, RELATION) VÀ RELATIONSHIP
+
+* VÍ DỤ NHẸ NHẸ:
+- APP FAP CÓ LƯU TRỮ THÔNG TIN 
+
+      * STUDENT (ID       | NAME      | YOB | GPA | ADDRESS | EMAIL | ...)
+                 SE668899 | AN NGUYỄN | 
+         -> DÍNH ĐẾN CHUYÊN NGÀNH, CHƯƠNG TRÌNH HỌC, LỚP HỌC... 
+
+      * MAJOR   (ID | NAME | DESCRITION | ...)
+         -> DÍNH ĐẾN CHƯƠNG TRÌNH HỌC, SỐ MÔN HỌC        
+
+      * SUBJECT (ID      | NAME                  | DESCRIPTION | CREDITS | SYSLLABUS | ...)
+                 SWR302  | SOFTWARE REQUIREMENTS | ...                
+
+2. THÀNH PHẦN TẠO NÊN SƠ ĐỒ VÀ CÚ PHÁP
+
+3. STYLE VẼ: 2 STYLE NỔI TIẾNG, PHỔ BIẾN                (IDF1X)
+* CHEN NOTATION   ()-----[]------<>--------[]-----()
+
+* CROW'S NOTATION [...]--------------<-[...]
+
+4. TOOL DÙNG VẼ
+- VISUAL PARADIGM, 
+        PHIÊN BẢN COMMUNITY EDITION (CE)    VS.   KHÁC PHIÊN BẢN ENTERPRISE
+        - VẼ ERD                                  - VẼ ERD
+                                                  - GENERATE RA LỆNH SQL CREATE TABLE...
+                                                  - GENERATE THẲNG VÀO SQL SERVER, MYSQL
+                                                             ĐỂ CÓ ĐC TABLE
+                                                  - GENERATE NGƯỢC TỪ SQL SERVER, MYSQL...
+                                                             THÀNH ERD LUÔN
+                                                  - GENERATE CODE, CLASS PHẦN ENTITY...
+
+=====================================================
+CUSTOMER
+ID | NAME | ... | NOTI_MESSAGE                                                                     |
+C1   AN           MSG1 (NGÀY, GIỜ, NỘI DUNG, BOOKING NÀO), MSG1 (NGÀY, GIỜ, NỘI DUNG, BOOKING NÀO)
+C2   BÌNH         2026/07/08 11:00 SẮP HẾT HẠN BOOKING, BK1 |
+
+ 
